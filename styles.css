@@ -44,20 +44,21 @@ img {
   border-bottom: 1px solid black;
   padding-bottom: 30px;
   margin: 0 30px 60px 30px;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 .contact img {
-  width: 30px;
+  width: 3vw;
   vertical-align: middle;
 }
 
 .contct li {
-  font-size: 40px;
+  font-size: 1vw;
 }
 
 .desc {
   padding: 0 30px 30px 30px;
+  font-size: 2vw;
 }
 
 table {
@@ -78,15 +79,15 @@ td {
     width: 100%;
   }
 
-  body {
+  /* body {
     font-size: 50px;
-  }
+  } */
 
-  .contact img {
+  /* .contact img {
     width: 100px;
-  }
+  } */
 
-  .contact {
+  /* .contact {
     font-size: 60px;
-  }
+  } */
 }
