@@ -27,7 +27,7 @@ img {
 }
 
 .desc-section {
-  width: 400px;
+  width: 450px;
   background: white;
   margin: 0 auto;
 }
@@ -42,13 +42,13 @@ img {
 
 .contact {
   border-bottom: 1px solid black;
-  padding-bottom: 30px;
-  margin: 0 30px 60px 30px;
-  font-size: 1.5vw;
+  padding-bottom: 1.5rem;
+  margin: 0 2rem 3rem 2rem;
+  font-size: 1.5rem;
 }
 
 .contact img {
-  width: 3vw;
+  width: 1.5rem;
   vertical-align: middle;
 }
 
@@ -57,12 +57,12 @@ img {
 }
 
 .desc {
-  padding: 0 30px 30px 30px;
-  font-size: 2vw;
+  padding: 0 2rem 2rem 2rem;
+  font-size: 1.3rem;
 }
 
 table {
-  width: 80vw;
+  width: 20rem;
   margin: 0 auto;
 }
 
