@@ -17,9 +17,9 @@ a:visited {
 }
 
 .container {
-  width: 1080px;
+  background: rgb(000, 170, 209);
+  width: 100%;
   margin: 0 auto;
-  display: flex;
 }
 
 img {
@@ -27,16 +27,17 @@ img {
 }
 
 .desc-section {
-  float: left;
-  width: 30%;
+  width: 400px;
+  background: white;
+  margin: 0 auto;
 }
 
-.image-section {
+/* .image-section {
   background: rgb(000, 170, 209);
   float: left;
   width: 70%;
   height: inherit;
-}
+} */
 
 .profile {
   width: 100%;
@@ -80,10 +81,6 @@ td {
 }
 
 @media (max-width: 768px) {
-  .image-section {
-    width: 0%;
-  }
-
   .desc-section {
     width: 100%;
   }
