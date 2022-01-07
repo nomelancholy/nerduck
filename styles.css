@@ -2,10 +2,6 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-/* div {
-  border: 1px solid black;
-} */
-
 ul {
   list-style: none;
   padding: 0;
@@ -15,22 +11,16 @@ a {
   text-decoration: none;
 }
 
+a:link,
+a:visited {
+  color: black;
+}
+
 .container {
   width: 1080px;
   margin: 0 auto;
-  /* background-color: yellow; */
   display: flex;
-  /* min-height: 100vh; */
-  /* height: 100%; */
-  /* overflow: auto; */
-  /* height: 100vh; */
 }
-
-/* .container::after {
-  clear: both;
-  display: block;
-  content: "";
-} */
 
 img {
   width: 50px;
@@ -45,7 +35,6 @@ img {
   background: rgb(000, 170, 209);
   float: left;
   width: 70%;
-  /* min-height: 1080px; */
   height: inherit;
 }
 
@@ -57,11 +46,57 @@ img {
   width: 100%;
 }
 
-.contact,
+.contact {
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+  margin: 0 30px 60px 30px;
+  font-size: 20px;
+}
+
+.contact img {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.contct li {
+  font-size: 40px;
+}
+
 .desc {
   padding: 0 30px 30px 30px;
 }
 
-.contact .fab {
-  padding-right: 7px;
+table {
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .image-section {
+    width: 0%;
+  }
+
+  .desc-section {
+    width: 100%;
+  }
+
+  body {
+    font-size: 50px;
+  }
+
+  .contact img {
+    width: 100px;
+  }
+
+  .contact {
+    font-size: 60px;
+  }
 }
