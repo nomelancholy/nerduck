@@ -2,6 +2,53 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-div {
+/* div {
   border: 1px solid black;
+} */
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  background-color: yellow;
+  min-height: 100vh;
+  /* height: 100%; */
+  /* overflow: auto; */
+  height: 100vh;
+}
+
+.container::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+img {
+  width: 50px;
+}
+
+.desc-section {
+  float: left;
+  width: 30%;
+}
+
+.image-section {
+  background: rgb(000, 170, 209);
+  float: left;
+  width: 70%;
+  /* min-height: 1080px; */
+  height: inherit;
+}
+
+.profile {
+  width: 100%;
+  background: blue;
+}
+
+.contact,
+.desc {
+  padding: 0 30px;
 }
