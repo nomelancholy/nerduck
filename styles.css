@@ -62,7 +62,8 @@ img {
 }
 
 table {
-  width: 100%;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 th,
