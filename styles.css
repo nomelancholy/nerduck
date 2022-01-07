@@ -8,23 +8,29 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
   width: 1080px;
   margin: 0 auto;
-  background-color: yellow;
-  min-height: 100vh;
+  /* background-color: yellow; */
+  display: flex;
+  /* min-height: 100vh; */
   /* height: 100%; */
   /* overflow: auto; */
-  height: 100vh;
+  /* height: 100vh; */
 }
 
-.container::after {
+/* .container::after {
   clear: both;
   display: block;
   content: "";
-}
+} */
 
 img {
   width: 50px;
@@ -45,10 +51,17 @@ img {
 
 .profile {
   width: 100%;
-  background: blue;
+}
+
+.profile img {
+  width: 100%;
 }
 
 .contact,
 .desc {
-  padding: 0 30px;
+  padding: 0 30px 30px 30px;
+}
+
+.contact .fab {
+  padding-right: 7px;
 }
