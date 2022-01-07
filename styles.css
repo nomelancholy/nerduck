@@ -17,7 +17,7 @@ a:visited {
 }
 
 .container {
-  background: rgb(000, 170, 209);
+  background: black;
   width: 100%;
   margin: 0 auto;
 }
@@ -31,13 +31,6 @@ img {
   background: white;
   margin: 0 auto;
 }
-
-/* .image-section {
-  background: rgb(000, 170, 209);
-  float: left;
-  width: 70%;
-  height: inherit;
-} */
 
 .profile {
   width: 100%;
